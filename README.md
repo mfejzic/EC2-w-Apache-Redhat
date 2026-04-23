@@ -59,3 +59,8 @@ This project provisions a scalable AWS infrastructure using Terraform and deploy
 Architecture Diagram
 
 <img width="481" height="761" alt="image" src="https://github.com/user-attachments/assets/26540792-ed3d-41e8-b8be-533cddff6e4f" />
+
+Build Order
+
+<img width="791" height="171" alt="redhatbuildorder" src="https://github.com/user-attachments/assets/f85d56a2-0a8b-41d5-9eb8-9433c857668d" />
+
