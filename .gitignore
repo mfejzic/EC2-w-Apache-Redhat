@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Java / Maven
+target/
+*.class
+*.war
+*.jar
+
+# Temp build files
+temp_jar/
+
+# Keys
+*.pem
+*.key
+
+# OS
+*.log
+*.exe
