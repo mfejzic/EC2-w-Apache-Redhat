@@ -1,22 +1,59 @@
+# =========================
 # Terraform
+# =========================
 .terraform/
 *.tfstate
 *.tfstate.*
 crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
 
-# Java / Maven
-target/
-*.class
-*.war
-*.jar
+# Terraform variable files (sensitive)
+*.tfvars
+*.tfvars.json
 
-# Temp build files
-temp_jar/
-
-# Keys
+# =========================
+# Credentials / Secrets
+# =========================
 *.pem
 *.key
+*.pub
+*.env
 
-# OS
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse / IntelliJ / VSCode
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# =========================
+# Logs
+# =========================
 *.log
-*.exe
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / build folders
+# =========================
+temp_jar/
+build/
+dist/
