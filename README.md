@@ -56,9 +56,13 @@ This project provisions a scalable AWS infrastructure using Terraform and deploy
 - AWS CloudWatch logs & metrics
 - System-level monitoring
 
+---
+
 Architecture Diagram
 
 <img width="481" height="761" alt="image" src="https://github.com/user-attachments/assets/26540792-ed3d-41e8-b8be-533cddff6e4f" />
+
+---
 
 Build Order
 
